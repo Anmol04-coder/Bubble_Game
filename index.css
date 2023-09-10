@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: rgb(204, 250, 134);
+
+}
+
+#pannel {
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#topPannel {
+    width: 100%;
+    height: 100px;
+    padding: 0px 25%;
+    background-color: rgb(77, 131, 77);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+#card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.box {
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#pbottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    width: 100%;
+    height: calc(100% - 100px);
+}
+
+#bubble {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3, 71, 3);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    color: white;
+}
+
+#bubble:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+#endLine {
+    color: red;
+}
